@@ -64,7 +64,7 @@ pytest -v
 Build the Docker image:
 
 ```bash
-docker build -t phone-number-interpretator .
+docker build -t phone-number-app .
 
 or
 
@@ -74,7 +74,7 @@ bash built_image.sh
 Run the application:
 
 ```bash
-docker run -it --rm phone-number-interpretator
+docker run -it --rm phone-number-app
 
 or
 
@@ -84,7 +84,7 @@ bash run_app.sh
 Run the tests:
 
 ```bash
-docker run --rm phone-number-interpretator pytest -v
+docker run --rm phone-number-app pytest -v
 
 or
 
