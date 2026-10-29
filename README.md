@@ -27,7 +27,7 @@ Type 'q' or press Ctrl+C to quit.
 - `Ambiguity 5`: 702 -> 702 or 700 2
 - `Ambiguity 6`: 700 -> 700 or 70 (if next number is 1-9) or 7 (if next number is 10-99)
 
-## Asumptions
+## Assumptions
 - 2 10 6 9 30 6 6 4 in GREEK should have 10 6 -> 16 or 106
 - Some combinations are intentionally excluded because `11` and `12` cannot be split in Greek spoken numbers.
 
